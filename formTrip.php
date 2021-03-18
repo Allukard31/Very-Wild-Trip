@@ -1,5 +1,6 @@
 <?php
 include("header.php");
+var_dump($_GET);
 ?>
 
 <form>
@@ -62,16 +63,18 @@ include("header.php");
         </select>
     </div>
 
-    <input type="submit" id="submit" value="Suspense !" />
+    <input type="submit" id="submit" value="Devis" />
 </form>
 
 <section class="main-cards">
-    <div class="Card">
-        <div>
-            <img src="images/barcelona-city-view.jpg" width="300px" height="300px">
+    <?php if (!empty($_GET['budget'])) { ?>
+        <div class="Card">
+            <div>
+                <img src="images/barcelona-city-view.jpg" width="300px" height="300px">
+            </div>
+            <span id="Voyage1"></span>
         </div>
-        <span id="Voyage1"></span>
-    </div>
+    <?php } ?>
     <div class="Card">
         <div>
             <img src="images/white-buildings-with-red-roofs.jpg" width="300px" height="300px">

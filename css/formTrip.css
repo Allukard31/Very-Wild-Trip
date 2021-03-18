@@ -1,3 +1,10 @@
+:root {
+  --Color: #a4334b;
+  --mediumColor: #c36678;
+  --lightColor: #dfa5b0;
+  --HoverElement: black;
+}
+
 form {
   display: flex;
   /* align-items: center; */
@@ -87,3 +94,8 @@ form #submit:hover {
   -webkit-transform: rotate(-15deg);
   transform: rotate(-15deg);
 }
+
+@media (max-width: 700px) {
+  form {
+     max-width: 100%;
+  }
