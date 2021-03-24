@@ -41,20 +41,20 @@ foreach ($destinations as $destination => $content) {
 <div class="formtrip-body">
     <form action="formtrip.php" method="POST">
         <div>
-            <label for="inputTrip">Votre budget</label>
+            <label for="inputTrip">Budget</label>
             <input type="number" name="budget" id="inputTrip" required value="<?= $budget ?>" />
         </div>
         <div>
-            <label for="inputDepaysement">Votre degré de dépaysement</label>
+            <label for="inputDepaysement">Degré de dépaysement</label>
             <select name="depay" id="inputDepaysement">
-                <option value="">Choix de 1 à 3</option>
+                <option value="">De 1 à 3</option>
                 <option value="1" <?= $depay == '1' ? 'selected' : '' ?>>1</option>
                 <option value="2" <?= $depay == '2' ? 'selected' : '' ?>>2</option>
                 <option value="3" <?= $depay == '3' ? 'selected' : '' ?>>3</option>
             </select>
         </div>
         <div>
-            <label for="inputClimat">Chois du climat</label>
+            <label for="inputClimat">Choix du climat</label>
             <select name="climat" id="inputClimat">
                 <option value="">Choix du climat</option>
                 <option value="Froid" <?= $wheather == 'Froid' ? 'selected' : '' ?>>Froid</option>
@@ -66,7 +66,7 @@ foreach ($destinations as $destination => $content) {
             </select>
         </div>
         <div>
-            <label for="inputPerson">Nombre de personne</label>
+            <label for="inputPerson">Nombre de personnes</label>
             <select name="person" id="inputPerson">
                 <option value="">De 1 à 4</option>
                 <option value="1" <?= $person == '1' ? 'selected' : '' ?>>1</option>
@@ -76,9 +76,9 @@ foreach ($destinations as $destination => $content) {
             </select>
         </div>
         <div>
-            <label for="inputDuree">Quelle durée</label>
+            <label for="inputDuree">Durée</label>
             <select name="duree" id="inputDuree">
-                <option value="">En nombre de jour</option>
+                <option value="">Nombre de jours</option>
                 <option value="2" <?= $duree == '2' ? 'selected' : '' ?>>Week-end (2 jours)</option>
                 <option value="7" <?= $duree == '7' ? 'selected' : '' ?>>Semaine (7 jours)</option>
                 <option value="14" <?= $duree == '14' ? 'selected' : '' ?>>Semaine (14 jours)</option>
@@ -91,14 +91,14 @@ foreach ($destinations as $destination => $content) {
     </form>
     
     <p class="formtrip-textright">
-       Veulliez renseigner ce formulaire de recherche afin que notre site vous proposes la ou les destinations de vos rèves !
+       Veuillez renseigner ce formulaire de recherche pour trouver la ou les destination(s) de vos rêves !
     </p>
 
     <h2>
         <?php if (!empty($filteredDestinations)) { ?>
-            <?= count($filteredDestinations) ?> voyages correspondent à vos critères
+            <?= count($filteredDestinations) ?> voyages correspondent à vos critères.
         <?php } else { ?>
-            Nous n'avons trouvé aucun voyage correspondant à vos critères
+            Nous n'avons trouvé aucun voyage correspondant à vos critères.
         <?php } ?>
     </h2>
 
