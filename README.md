@@ -2,7 +2,7 @@
 
 ![Image of logo](https://raw.githubusercontent.com/leamahler85/images/main/logo-picture.png)
 
-<!-- ![Image of index.php](https://raw.githubusercontent.com/leamahler85/images/main/first-page.png) -->
+![Image of index.php](https://raw.githubusercontent.com/leamahler85/images/main/new-first-page.png)
 
 ## What is *Very Wild Trip* ?
 
