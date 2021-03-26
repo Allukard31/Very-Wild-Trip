@@ -2,7 +2,7 @@
 
 ![Image of logo](https://raw.githubusercontent.com/leamahler85/images/main/logo-picture.png)
 
-![Image of index.php](https://raw.githubusercontent.com/leamahler85/images/main/first-page.png)
+![Image of index.php](https://raw.githubusercontent.com/leamahler85/images/main/new-first-page.png)
 
 ## What is *Very Wild Trip* ?
 
@@ -17,14 +17,14 @@ We decided to develop a travel website designed to determine the best destinatio
 
 This website was designed dynamically thanks to HTML/CSS & PHP !
 
-We used Git/GitHub to work and collaborate as a team :-)
+We used Git/GitHub to work and collaborate as a team :smile:
 
 And also animate.css (https://animate.style/) for animations & Google Fonts API (https://fonts.google.com/).
 
 
 ## THE DEMO !
 
-*Live Demo Link* <--- link will be available soon, stay tuned !
+https://wcs-projet1-very-wild-trip.herokuapp.com/ 
 
 ## Files & Directories
 
@@ -111,6 +111,6 @@ And also animate.css (https://animate.style/) for animations & Google Fonts API 
 
 ## You want to contribute to our project ?
 
-Pull requests are welcome ! For major changes, please open an issue first to discuss what you would like to change with us !
+Pull requests are welcome ! For major changes, please open an issue first to discuss what you would like to change with us :blush:
 
 
