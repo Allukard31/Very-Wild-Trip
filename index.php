@@ -36,24 +36,24 @@ include("header.php");
     </div>
     <div class="toptrips">
       <div class="city-picture">
-        <img src="images/destinations_images/Paris.jpeg" alt="">
+        <img src="images/destinations_images/Los_Angeles.jpeg" alt="">
       </div>
       <div class="city-name">
       <h2>TOP 2 </h2>
       </div>
       <div class="city-description">
-      <p><strong>PARIS, LA VILLE LUMIERE  </strong></p>
+      <p><strong>LOS ANGELES, CITY OF STARS</strong></p>
       </div>
     </div>
     <div class="toptrips">
       <div class="city-picture">
-        <img src="images/destinations_images/Pyongyang.jpeg" alt="">
+        <img src="images/destinations_images/AnseBoileauMahe.jpeg" alt="">
       </div>
       <div class="city-name">
       <h2>TOP 3 </h2>
       </div>
       <div class="city-description">
-      <p><strong>PYONGYANG, L'ETOILE DU NORD</strong></p>
+      <p><strong>LES SEYCHELLES, L'INDETRONABLE PARADIS</strong></p>
       </div>
     </div>
   </div>
