@@ -42,7 +42,7 @@ include("header.php");
       <h2>TOP 2 </h2>
       </div>
       <div class="city-description">
-      <p><strong>LOS ANGELES, CITY OF STARS</strong></p>
+      <p><strong>LOS ANGELES, « CITY OF STARS »</strong></p>
       </div>
     </div>
     <div class="toptrips">
